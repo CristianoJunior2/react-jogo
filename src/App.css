@@ -388,14 +388,14 @@ h6 {
 .imagem-jogo {
   width: 80vw;
   margin: 0 auto;
-  margin-left: -20px;
+  margin-left: -10px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-row-gap: 2rem;
   grid-column-gap: 20px;
 }
 .imagem-jogo img {
-  width: 100%;
+  width: 90%;
   display: block;
 }
 .info-jogo{

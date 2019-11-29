@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
 //criadas
-import defaultBcg from '../images/room-1.jpeg'
+import defaultBcg from '../img/bg.jpg'
 import Banner from '../components/Banner'
 import { JogoContext } from '../context'
 import StyledHero from '../components/StyledHero'
@@ -10,7 +10,6 @@ import StyledHero from '../components/StyledHero'
 export default class UnicoJogo extends Component {
     constructor(props) {
         super(props)
-        //console.log(this.props )
         this.state = {
             slug: this.props.match.params.slug,
             defaultBcg
@@ -18,8 +17,6 @@ export default class UnicoJogo extends Component {
     }
 
     static contextType = JogoContext
-
-    //componentDidMount() {  }
 
     render() {
         const {getJogo} = this.context
@@ -43,31 +40,33 @@ export default class UnicoJogo extends Component {
                 </Banner>
                 </StyledHero>
                 <section className="unico-jogo">
-                    {/*<div className="imagem-jogo">
+                    <div className="imagem-jogo">
                         {defaultImg.map((item,index) =>{
                             return <img key={index} src={item} alt={name} />
                         })}
-                    </div>*/}
-                    <div className="info-jogo">
+                    </div>
+                        <div className="info-jogo">
                             <article className="desc">
-                                <h3>Detalhes</h3>
-                                <p>
-                                    {description}
-                                </p>
+                                    <h3>Detalhes</h3>
+                                    <p>{description}</p>
+                                </article>
+                                <article className="info">
+                                    <h3>Info</h3>
+                                    <h6>Ano : {ano}</h6>
+                                    <h6>Idade : {idade}+</h6>
+                                    <h6>
+                                        Plataforma principal:{" "}{
+                                        `${lancado} `
+                                        }
+                                    </h6>
+                                    <h6>
+                                        {dispo ? "Jogo Gratuito" : "Jogo pago"}
+                                    </h6>
                             </article>
-                            <article className="info">
-                                <h3>Info</h3>
-                                <h6>Ano : {ano}</h6>
-                                <h6>Idade : {idade}+</h6>
-                                <h6>
-                                    Plataforma principal:{" "}{
-                                       `${lancado} `
-                                    }
-                                </h6>
-                                <h6>
-                                    {dispo ? "Jogo Gratuito" : "Jogo pago"}
-                                </h6>
-                                <h6>Extras</h6>
+                        </div>
+                    </section>
+                    <section className="jogo-extras">
+                    <h6>Extras</h6>
                                 <ul className="extras">
                                     {
                                         extras.map((item,index) => {
@@ -75,9 +74,7 @@ export default class UnicoJogo extends Component {
                                         })
                                     }
                                 </ul>
-                            </article>
-                    </div>
-                </section>
+                    </section>
             </>
         )
     }

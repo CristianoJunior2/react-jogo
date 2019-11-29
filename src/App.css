@@ -394,12 +394,14 @@ h6 {
   display: block;
 }
 .info-jogo{
+  text-align: justify;
   width: 80vw;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns:repeat(auto-fit, minmax(350px, 1fr));
   margin: 2rem auto;
 }
 .desc,
+
 .info {
   margin: 1rem 0;
 }

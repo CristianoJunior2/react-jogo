@@ -21,27 +21,3 @@ function JogoConteiner({ context }) {
 }
 
 export default withJogoConsumer(JogoConteiner)
-
-/*
-export default function JogoConteiner() {
-    return (
-        <JogoConsume>
-            {
-                (value) => {
-                    const {loading, sortedGames,jogos} = value
-                    if(loading){
-                        return<Loading />
-                    }
-
-                    return(
-                    <div>
-                        f
-                        <FiltroJogos jogos={jogos} />
-                        <ListaJogos jogos={sortedGames}/>
-                    </div>
-                    )
-                }
-            }
-        </JogoConsume>
-    )
-}*/

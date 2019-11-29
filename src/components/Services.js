@@ -5,8 +5,6 @@ import {GiMultipleTargets,GiTalk} from 'react-icons/gi'
 import {MdFindReplace} from 'react-icons/md'
 import {TiGroup} from 'react-icons/ti'
 
-//Criadas
-import Title from './Title.js'
 
 export default class Services extends Component {
     //icones e seus detalhes

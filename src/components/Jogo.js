@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 import PropTypes from 'prop-types'
 
 //criadas
-import defaultImg from '../images/room-1.jpeg'
+import defaultImg from '../img/bg.jpg'
 
 export default function Jogo({jogo}) {
     const{name,slug,images,ano,dispo} = jogo;

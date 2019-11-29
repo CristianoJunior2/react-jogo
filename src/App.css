@@ -405,8 +405,8 @@ h6 {
 }
 .desc,
 
+
 .desc{
-  margin: 0 auto 1rem;
   padding: 10px;
   box-sizing: border-box;
 }
@@ -441,6 +441,9 @@ h6 {
 .jogo-extras h6 {
   text-transform: capitalize;
   letter-spacing: var(--mainSpacing);
+}
+.jogo-extras h3 {
+  text-align: left;
 }
 .extras {
   font-weight: bold;

@@ -5,7 +5,6 @@ import {Link} from 'react-router-dom'
 //Criadas
 import Banner from '../components/Banner'
 import Hero from '../components/Hero'
-import JogoConteiner from '../components/JogoConteiner'
 
 const Jogos = () =>{
 	return(

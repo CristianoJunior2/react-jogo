@@ -47,7 +47,7 @@ export default class UnicoJogo extends Component {
                         </article>
                         <article className="info">
                             <h4>Vantagens Pedagógicas</h4>
-                            <ul className="extras">
+                            <ul className="desc">
                                 {
                                     extras.map((item, index) => {
                                         return <li key={index}> - {item}</li>

@@ -6,7 +6,7 @@ export default function ListaJogos({jogos}) {
 
     if (jogos.length === 0) {
         return (
-            <h3>Nenhum jogo encontrado<h3/>
+            <h3>Nenhum jogo encontrado</h3>
         )
     }
 

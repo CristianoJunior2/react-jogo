@@ -50,7 +50,7 @@ export default class UnicoJogo extends Component {
                             <ul className="desc">
                                 {
                                     extras.map((item, index) => {
-                                        return <li key={index}> - {item}</li>
+                                        return <li key={index}>{item}</li>
                                     })
                                 }
                             </ul>

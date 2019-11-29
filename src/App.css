@@ -459,6 +459,7 @@ h6 {
   }
   .info {
     padding-left: 3rem;
+    text-align: right;
   }
 }
 /* end of single room*/

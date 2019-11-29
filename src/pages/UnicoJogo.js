@@ -55,7 +55,6 @@ export default class UnicoJogo extends Component {
                                 }
                             </ul>
                         </article>
-                        
                     </div>
                 </section>
                 <section className="jogo-extras">

@@ -11,11 +11,13 @@ export default function Jogo({jogo}) {
         return (
             <article className="jogo">
                 <div className="img-container">
-                    <img src={images[0] || defaultImg} alt='unico jogo'></img>
-                    <div className="price-top">
-                        <h6>Gratuito</h6>
-                    </div>
-                    <Link to={`/jogos/${slug}`} className="btn-primary jogo-link">informações</Link>
+                    <Link Link to={`/jogos/${slug}`}>
+                        <img src={images[0] || defaultImg} alt='unico jogo'></img>
+                        <div className="price-top">
+                            <h6>Gratuito</h6>
+                        </div>
+                        <Link to={`/jogos/${slug}`} className="btn-primary jogo-link">informações</Link>
+                    </Link>
                 </div>    
             <p className="jogo-info">{name}</p>
             </article>
@@ -25,11 +27,13 @@ export default function Jogo({jogo}) {
         return (
             <article className="jogo">
                 <div className="img-container">
-                    <img src={images[0] || defaultImg} alt='unico jogo'></img>
-                    <div className="price-top">
-                        <h6>Pago</h6>
-                    </div>
-                    <Link to={`/jogos/${slug}`} className="btn-primary jogo-link">informações</Link>
+                    <Link Link to={`/jogos/${slug}`}>
+                        <img src={images[0] || defaultImg} alt='unico jogo'></img>
+                        <div className="price-top">
+                            <h6>Pago</h6>
+                        </div>
+                        <Link to={`/jogos/${slug}`} className="btn-primary jogo-link">informações</Link>
+                    </Link>
                 </div>    
             <p className="jogo-info">{name}</p>
             </article>

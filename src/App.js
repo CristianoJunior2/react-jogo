@@ -11,6 +11,7 @@ import Erro from './pages/Erro'
 
 //Components
 import Navbar from './components/Navbar'
+import ScrollToTop from './components/ScrollToTop'
 
 
 
@@ -18,6 +19,7 @@ function App() {
   return (
     <>
     <Navbar/>
+    <ScrollToTop />
     <Switch>
       <Route exact path="/" component={Home}/>
       <Route exact path="/jogos/" component={Jogos}/>

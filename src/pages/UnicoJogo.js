@@ -45,9 +45,9 @@ export default class UnicoJogo extends Component {
                             <h3>Detalhes</h3>
                             <p>{description}</p>
                         </article>
-                        <article className="info">
+                        <article className="vantagem">
                             <h4>Vantagens Pedagógicas</h4>
-                            <ul className="desc">
+                            <ul className="vantagem-lista">
                                 {
                                     extras.map((item, index) => {
                                         return <li key={index}>{item}</li>
@@ -70,8 +70,8 @@ export default class UnicoJogo extends Component {
                         {dispo ? "Jogo Gratuito" : "Jogo pago"}
                     </h6>
                 </section>
-                <section className="unico-jogo">
-                    <h6>Galeria</h6>
+                <section className="galeria">
+                    <h3>Galeria</h3>
                     <div className="imagem-jogo">
                         {defaultImg.map((item, index) => {
                             return <img key={index} src={item} alt={name} />

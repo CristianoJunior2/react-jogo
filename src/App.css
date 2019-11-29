@@ -388,6 +388,7 @@ h6 {
 .imagem-jogo {
   width: 80vw;
   margin: 0 auto;
+  margin-left: -3px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-row-gap: 2rem;
@@ -407,14 +408,48 @@ h6 {
 
 
 .desc{
-  padding: 10px;
+  padding: 7px;
   box-sizing: border-box;
+}
+
+.vantagem{
+  margin: -5px;
+  padding-bottom: 5px;
+  box-sizing: border-box;
+}
+
+.vantagem h4{
+  margin-top: 20px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.vantagem-lista{
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-bottom: 25px;
+  box-sizing: border-box;
+}
+.vantagem-lista li{
+  padding: 10px;
+}
+.galeria{
+  margin-left: 50px;
+}
+
+.galeria h3{
+  margin-left: -40px;
+  text-align: center;
 }
 
 .info {
   margin: 0 auto 1rem;
   padding: 10px;
   box-sizing: border-box;
+}
+
+.info h4{
+  margin-top: -2px;
 }
 .desc h3 {
   text-transform: capitalize;
@@ -441,9 +476,10 @@ h6 {
 .jogo-extras h6 {
   text-transform: capitalize;
   letter-spacing: var(--mainSpacing);
+  margin-left: 10px;
 }
 .jogo-extras h3 {
-  text-align: left;
+  text-align: center;
 }
 .extras {
   font-weight: bold;

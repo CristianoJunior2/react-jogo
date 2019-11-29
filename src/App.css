@@ -418,7 +418,9 @@ h6 {
 .desc p {
   line-height: 1.5;
 }
-.info h3,
+.info h3{
+  text-align: left;
+}
 .info h6 {
   text-transform: capitalize;
   letter-spacing: var(--mainSpacing);

@@ -427,7 +427,7 @@ h6 {
 
 .vantagem-lista{
   margin-top: 10px;
-  margin-left: 30px;
+  margin-left: 50px;
   margin-bottom: 25px;
   box-sizing: border-box;
 }
@@ -481,7 +481,7 @@ h6 {
   margin-left: -20px;
 }
 .jogo-extras h3 {
-  text-align: center;
+  text-align: left;
 }
 .extras {
   font-weight: bold;

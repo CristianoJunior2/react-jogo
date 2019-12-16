@@ -179,6 +179,14 @@ h6 {
   min-height: 60vh;
 }
 .dicasHero {
+  min-height: calc(100vh - 66px);
+  background: url("./img/bg3.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dicasHero {
   background-image: url("./img/bg3.jpg");
   min-height: 60vh;
 }

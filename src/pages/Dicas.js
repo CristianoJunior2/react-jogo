@@ -10,7 +10,7 @@ const Jogos = () =>{
 	return(
 		<>
 			<Hero hero="dicasHero">
-				<Banner title="Confira dicas de como usar os jogos a educação">
+				<Banner title="Como utilizar os jogos?">
 					<Link to='/' className="btn-primary">Inicio</Link>
 				</Banner>
 			</Hero>

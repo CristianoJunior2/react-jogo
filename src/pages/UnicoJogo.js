@@ -57,19 +57,7 @@ export default class UnicoJogo extends Component {
                         </article>
                     </div>
                 </section>
-                <section className="jogo-extras">
-                    <h3>Info</h3>
-                    <h6>Ano : {ano}</h6>
-                    <h6>Idade : {idade}+</h6>
-                    <h6>
-                        Plataforma principal:{" "}{
-                            `${lancado} `
-                        }
-                    </h6>
-                    <h6>
-                        {dispo ? "Jogo Gratuito" : "Jogo pago"}
-                    </h6>
-                </section>
+                
                 <section className="galeria">
                     <h3>Galeria</h3>
                     <div className="imagem-jogo">

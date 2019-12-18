@@ -45,7 +45,7 @@ export default class UnicoJogo extends Component {
                             <h3>Detalhes</h3>
                             <p>{description}</p>
                         </article>
-                        <article className="vantagem">
+                        <article className="desc">
                             <h4>Vantagens Pedagógicas</h4>
                             <ul className="vantagem-lista">
                                 {
